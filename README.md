@@ -50,7 +50,7 @@ Below is an example of how to use the Solink application:
 1. Clone the repository: `git clone 
 https://github.com/ansinitro/solink-application.git`
 2. Install dependencies: yarn
-3. Run the server: npm start
+3. Run the server: yarn start
 4. Access the application in your browser at http://localhost:3000
 
 ## How to Use
