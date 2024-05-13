@@ -3,6 +3,12 @@
 ## Description
 Solink is a professional networking application built on the Solana blockchain. It allows users to connect, collaborate, and leave their mark within the Solana ecosystem. This README provides an overview of the project's repository structure, key features, demo screenshots, and examples.
 
+## Features
+- Connect to Solana wallet
+- Professional networking functionalities
+- Responsive design using Bootstrap
+- Seamless integration with Solana blockchain
+  
 ## Repository Structure
 ### Files
 - README.md: The main documentation file for the project.
@@ -27,14 +33,15 @@ Solink is a professional networking application built on the Solana blockchain. 
 
 
 ## Demo Screenshots
-!Solink
+![image](https://github.com/ansinitro/solink-application/assets/124910398/e1995cdd-57cc-4f2e-bcf8-c0edb8980d04)
+
 
 ## Examples
 Below is an example of how to use the Solink application:
 
 1. Clone the repository: `git clone 
 https://github.com/ansinitro/solink-application.git`
-2. Install dependencies: npm install
+2. Install dependencies: yarn
 3. Run the server: npm start
 4. Access the application in your browser at http://localhost:3000
 
