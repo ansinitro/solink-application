@@ -7,7 +7,7 @@ body {
 
 .butt {
   background-color: #DC1FFF;
-  transition: background-color 1s;
+  transition: background-color 2s;
 }
 
 .butt:hover {
