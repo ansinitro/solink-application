@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS', Courier, monospace;
+  /* background: linear-gradient(to right top, rgba(0, 255, 163, 0.2), rgba(220, 31, 255, 0.2)); */
+}
+
+.butt {
+  background-color: #DC1FFF;
+  transition: background-color 1s;
+}
+
+.butt:hover {
+  background-color: #00FFA3;
+}
+
+.background-video {
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.8;
+  background-size: cover;
+}

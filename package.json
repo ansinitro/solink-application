@@ -1,0 +1,16 @@
+{
+  "name": "solink-application",
+  "version": "1.0.0",
+  "description": "Social network, which powered by 'Solana blockchain'.",
+  "author": "ansinitro, tomirisospanova",
+  "license": "MIT",
+  "packageManager": "yarn@4.1.1",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  }
+}
