@@ -8,5 +8,7 @@ function solanaWallet() {
 function connectToWallet() {
   if (solanaWallet()) {
       window.solana.connect();
+  } else {
+    alert("The Solana Wallet Needed!")
   }
 }

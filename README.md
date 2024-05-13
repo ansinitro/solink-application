@@ -36,6 +36,14 @@ Solink is a professional networking application built on the Solana blockchain. 
 ![image](https://github.com/ansinitro/solink-application/assets/124910398/e1995cdd-57cc-4f2e-bcf8-c0edb8980d04)
 
 
+## Quick Start
+```bash
+git clone https://github.com/ansinitro/solink-application
+cd solink-application
+yarn 
+yarn start 
+```
+
 ## Examples
 Below is an example of how to use the Solink application:
 
