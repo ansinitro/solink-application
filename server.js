@@ -6,7 +6,15 @@ const app = express();
 app.use("/public", express.static(path.join(__dirname, 'public')));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "wallet-connect.html"))
+  res.sendFile(path.join(__dirname, "views", "wallet-connect.html"));
+});
+
+app.get("/register", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "registration.html"));
+});
+
+app.get("/profile", (req, res) => {
+  res.sendFile(path.join(__dirname, "views", "profile.html"));
 });
 
 const port = PORT || 3000;
