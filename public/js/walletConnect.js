@@ -9,8 +9,9 @@ async function connectToWallet() {
 
           // Simulate fetching user data from the wallet
           const userData = {
-              username: "User123", // This would typically come from the wallet or user input
-              avatar: "public/images/avatars/default.png" // Default avatar
+            bio: "I am a human)",
+            username: "Guest", // This would typically come from the wallet or user input
+              avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhsJ2D692LXEDT04mefdqZtznqnIg31FnmX5-aETP1O-rA40rRhSYbMrmMTfTVHHwoCk&usqp=CAU" // Default avatar
           };
 
           // Store user data in session storage
