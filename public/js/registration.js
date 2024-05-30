@@ -38,3 +38,27 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("avatar").value = userData.avatar;
     }
 });
+
+// Обработка регистрации пользователя
+router.post("/register", async (req, res) => {
+  const { username, email, photos } = req.body;
+  const walletAddress = req.session.walletAddress;
+
+  try {
+    if (!walletAddress) {
+      throw new Error("Wallet address is not found in session");
+    }
+    const user = new User({
+      username,
+      email,
+      photos: photos ? [photos] : [],
+      walletAddress,
+    });
+    await user.save();
+    req.session.userId = user._id;
+    res.redirect("/main");
+  } catch (error) {
+    console.error(error);
+    res.redirect("/register");
+  }
+});

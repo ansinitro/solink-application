@@ -6,8 +6,11 @@
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
   "dependencies": {
+    "@solana/web3.js": "^1.91.8",
+    "anchor": "^1.4.1",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "react": "^18.3.1"
   },
   "scripts": {
     "start": "node server.js",
