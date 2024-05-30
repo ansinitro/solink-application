@@ -39,26 +39,14 @@
     </style>
 </head>
 <body>
-    <div class="profile-container">
-        <img id="profile-avatar" src="/path/to/avatar.jpg" alt="User Avatar" class="avatar">
-        <div class="info">
-            <h2 id="profile-username">Username</h2>
-            <p>Address: 0x123456789...</p>
-            <p>Number of Friends: 10</p>
-            <!-- Button to send friend request -->
-            <button class="btn" onclick="sendFriendRequest()">Send Friend Request</button>
-            <!-- Placeholder for receiving friend requests -->
-            <div id="friend-requests">
-                <!-- Friend requests will be dynamically added here -->
-            </div>
-            <!-- Form to write posts -->
-            <form id="post-form" onsubmit="writePost(); return false;">
-                <textarea id="post-content" placeholder="Write your post..." rows="4" cols="50"></textarea><br>
-                <button type="submit" class="btn">Post</button>
-            </form>
-            <!-- Placeholder for displaying posts -->
-            <div id="posts">
-                <!-- Posts from other users will be dynamically added here -->
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="text-center">
+        <div style="color: white;">
+            <h1>Your Profile</h1>
+            <div id="profile">
+                <p><strong>Username:</strong> <span id="profile-username"></span></p>
+                <p><strong>Avatar:</strong></p>
+                <img id="profile-avatar" src="" alt="Avatar" width="150">
             </div>
         </div>
     </div>
