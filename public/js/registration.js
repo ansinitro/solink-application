@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sessionStorage.setItem("userData", JSON.stringify(userData));
 
         // TODO: save to database
-        window.location.href = "/profile";
+        window.location.href = "/main";
 
     });
 
