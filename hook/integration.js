@@ -1,6 +1,6 @@
 const anchor = require('@project-serum/anchor');
 const { PublicKey, SystemProgram } = require('@solana/web3.js');
-const idl = require('./idl.json'); // Ensure you have the IDL file in the same directory
+const {idl} = require('./idl.js'); // Ensure you have the IDL file in the same directory
 
 const programID = new PublicKey('AXEyVPMFZF27CidxsEo66SnCxqatTAaFZSzqKkfMknFG');
 const opts = {

@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const userData = JSON.parse(sessionStorage.getItem("userData"));
+    console.log(userData);
     if (userData) {
         document.getElementById("profile-username").textContent = userData.username;
         document.getElementById("profile-bio").textContent = userData.bio;

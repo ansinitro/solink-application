@@ -9,8 +9,8 @@ async function connectToWallet() {
   
             // Simulate fetching user data from the wallet
             const userData = {
-                username: "User123", // This would typically come from the wallet or user input
-                avatar: "public/images/avatars/default.png" // Default avatar
+                username: "Guest", // This would typically come from the wallet or user input
+                avatar: "https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg" // Default avatar
             };
   
             // Store user data in session storage
